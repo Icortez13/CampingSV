@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Crimson+Text&family=Gruppo&family=Kanit:ital,wght@1,200&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Crimson+Text&family=Gruppo&family=Kanit:ital,wght@1,200&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Crimson+Text&family=Gruppo&family=Kanit:ital,wght@1,200&family=Raleway:wght@300&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Crimson+Text&family=Gruppo&family=Kanit:ital,wght@1,200&family=Libre+Baskerville:ital@1&family=Raleway:wght@300&family=Roboto+Slab:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Crimson+Text&family=Gruppo&family=Kanit:ital,wght@1,200&family=Libre+Baskerville:ital@1&family=Raleway:wght@300&family=Roboto+Slab:wght@900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkatra&family=Crimson+Text&family=Gruppo&family=Kanit:ital,wght@1,200&family=Libre+Baskerville:ital@1&family=Raleway:wght@300&family=Roboto+Slab:wght@900&family=Russo+One&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*comienzo del header*/
+
+h1{
+   font-size: 3rem;
+   font-family: 'Alkatra', cursive;
+   font-family: 'Crimson Text', serif;
+   font-family: 'Gruppo', cursive;
+   font-family: 'Kanit', sans-serif;
+   font-family: 'Roboto Slab', serif;
+   color: rgb(158, 199, 22);
+   text-shadow: 5px 5px 2px black;
+}
+
+header{
+    /*display: inline-block;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;*/
+    background-image: url(./header3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+   
+}
+#camping{
+    text-decoration: overline underline black;
+    margin-left: 2rem;
+    padding-top: 2rem;
+}
+
+#sv{
+    color: rgba(7, 7, 169, 0.878);
+    text-decoration: none  ;
+    font-size: 5rem;
+    
+    
+}
+
+#slogan{
+    text-align: right;
+    margin-right: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 2px rgb(7, 125, 72);
+} 
+
+/* final del header*/
+
+/*comienzo del nav*/
+
+nav{
+   background-color: rgb(5, 74, 67);
+   text-align: center;
+  
+}
+nav ul li{
+   display: inline-block;
+   padding: 1.5rem;
+   list-style: none;
+
+}
+
+nav ul li a{
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif; 
+    text-decoration: none; 
+
+}
+
+nav ul li a:hover{
+    color: #f6f6f6;
+
+}
+
+/*termina el nav*/ 
+
+/*comienza main de la pag index.html*/
+
+.box-center1{
+    width: 100%;
+    margin: none;
+}
+
+.conteiner1{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."; 
+}
+
+.homemain{
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.welcome{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.about{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5rem;
+    text-align: justify;
+
+}
+
+#homeimage{
+    width: 100%;
+    margin: none;
+    size: cover;
+}
+
+/*termina main de la pag index.html*/
+
+/* Comienza main de la pag contact.html*/
+
+.box-center2{
+    width: 100%;
+    margin: none;
+    background: linear-gradient(150deg, #FA7153, #F8D4E9)
+
+}
+
+
+.box-center2 .formulario{
+    width: 25%;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.box-center2 .formulario h4{
+    font-size: 2.5rem;
+}
+
+form label{
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #FA7153;
+}
+
+
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    height: 30px;
+    padding: 3px 10px; 
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    margin: 8px 0;
+    display: block; 
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    margin: 8px 0;
+    display: block; 
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 32px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+    
+input[type="submit"]:hover{
+    background-color: #599F36;
+    border: 1px solid #599F36;
+}    
+/*termina main de la pag contact.html*/
+
+/*comienza main de la pag lugares.html*/
+
+.box-center3{
+    width: 100%;
+    margin: none;
+    background-color: #e5e5f7;
+    background-color: #e5e5f7;
+opacity: 0.8;
+background: repeating-linear-gradient( 45deg, #20351d, #20351d 5px, #e5e5f7 5px, #e5e5f7 25px );
+
+}
+
+.box-center3 .departments{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."
+      "."; 
+}
+
+.eramon-position{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    transition: all .3s;
+}
+#eramon{
+    width: 20%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5)
+}
+.eramon-position:hover{
+    transform: scale(1.1);
+
+}
+
+#chalateletter{
+    padding-top: 1rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#chalateletter a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+
+
+
+}
+
+/* termina main de pag lugare,html*/
+
+/*comienza main de pag chalatenango.html*/
+
+.box-center4{
+    width: 100%;
+    margin: none;
+    background-color: #e5e5f7;
+    background-color: #e5e5f7;
+opacity: 0.8;
+background: repeating-linear-gradient( 45deg, #20351d, #20351d 5px, #e5e5f7 5px, #e5e5f7 25px );
+}
+.box-center4 .departments{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "."
+      "."; 
+}
+
+.el-manzano{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    transition: all .3s;
+}
+
+#manzanoimg{
+    width: 20%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5)
+}
+#manzanoletter{
+    padding-top: 1rem;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Russo One', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#manzanoletter a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.el-manzano:hover{
+   transform: scale(1.1);
+}
+
+/*termina main pag chalatenango.html*/
+
+.box-center5{
+    width: 100%;
+    margin: none;
+    
+}
+.conteiner3{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."; 
+}
+
+#waterfall{
+    width: 75%;
+    
+}
+.peem{
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+}
+.title{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.about-manzano{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Gruppo', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding-top: 2rem;
+    
+}
+
+/*termina main de pag elmanzano.html*/
+
+/*comienza el footer*/
+
+footer{
+    background-color:  rgb(5, 74, 67);
+}
+
+
+.foot-conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    /*padding: 15px 0;*/
+    gap: 20px;
+    color: black;
+}
+
+.datos{
+    text-align: justify;
+    padding-top: 10px;
+    padding-left: 250px;
+    
+}
+
+.info h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.margen{
+    margin: 10px 0;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap; 
+}
+
+.icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 120, 19);
+    border-radius: 75%;
+    color: white;
+    margin: 2px;
+}
+
+.foot-conteiner .info .icons{
+    width: 100%;
+}
+
+.foot-conteiner .info .icons a{
+    width: 40px;
+    height: 40px;
+}
+
+
+.foot-conteiner .info .icons a:hover{
+    background-color: darkblue;
+
+}
+
+/*termina footer*/
+
+/*aplicando media querry*/
+@media{
+    
+}
