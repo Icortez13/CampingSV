@@ -113,8 +113,8 @@ nav ul li a:hover{
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
-    grid-template-areas: 
-      ". ."; 
+    /*grid-template-areas: 
+      ". ."; */
 }
 
 .homemain{
@@ -163,20 +163,29 @@ nav ul li a:hover{
 .box-center2{
     width: 100%;
     margin: none;
-    background: linear-gradient(150deg, #FA7153, #F8D4E9)
+    background: linear-gradient(150deg, #FA7153, #F8D4E9);
+    padding: 3rem;
 
 }
 
 
-.box-center2 .formulario{
+
+
+
+.formulario{
+    margin: auto;
     width: 25%;
-    background-color: white;
-    text-align: center;
+    padding: 1rem;
+    background-color: rgb(119, 119, 197);
+    text-align: justify;
     
 }
 
 .box-center2 .formulario h4{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    text-align: justify;
+    
 }
 
 form label{
@@ -190,7 +199,7 @@ input[type="email"]{
     width: 100%;
     height: 30px;
     padding: 3px 10px; 
-    border: 1px solid #f6f6f6;
+    border: 1px solid #0000;
     border-radius: 3px;
     margin: 8px 0;
     display: block; 
@@ -199,7 +208,7 @@ input[type="email"]{
 textarea{
     width: 100%;
     height: 100px;
-    border: 1px solid #f6f6f6;
+    border: 1px solid #0000;
     border-radius: 3px;
     margin: 8px 0;
     display: block; 
@@ -283,7 +292,7 @@ background: repeating-linear-gradient( 45deg, #20351d, #20351d 5px, #e5e5f7 5px,
 
 }
 
-/* termina main de pag lugare,html*/
+/* termina main de pag lugares.html*/
 
 /*comienza main de pag chalatenango.html*/
 
@@ -467,6 +476,95 @@ footer{
 /*termina footer*/
 
 /*aplicando media querry*/
-@media{
-    
+@media (max-width:640px) {
+    header{
+        text-align: center;
+        background-size: cover ;
+    }
+
+    nav ul li{
+        display: block !important;
+    }
+
+   .conteiner1{
+        grid-template-columns: 1fr;
+       }
+
+    .homemain{
+        padding: 5px;
+    }
+
+    #homeimage{
+       
+        width: 100%;
+    }
+
+    .formulario{
+        width: 100%;
+        display: block;
+    }
+
+    .conteiner3{
+        grid-template-columns: 1fr;
+    }
+
+    .peem{
+        padding: 0;
+    }
+
+    #waterfall{
+        width: 100%;
+    }
+
+    .foot-conteiner{
+        grid-template-columns: 1fr;
+        
+        text-align: center;
+        background-size: cover;
+    }
+
+    .datos{
+        text-align: center;
+        padding-left: 0;
+        
+    }
+
 }
+
+@media (max-width:1007px){
+    header{
+        text-align: center;
+        background-size: cover ;
+    }
+
+    nav ul li{
+        display: inline-block;
+    }
+
+   .conteiner1{
+        grid-template-columns: 1fr;
+       }
+
+    .homemain{
+        padding: 5px;
+    }
+
+    #homeimage{
+       
+        width: 100%;
+    }
+
+    .foot-conteiner{
+        grid-template-columns: 1fr;
+        
+        text-align: center;
+        background-size: cover;
+    }
+
+    .datos{
+        text-align: center;
+        padding-left: 0;
+        
+    }
+}
+
